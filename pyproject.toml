@@ -1,2 +1,12 @@
+[project]
+name = "terabox-dl-api"
+version = "0.1.0"
+description = "TeraBox Downloader Flask API"
+dependencies = [
+    "Flask",
+    "flask-cors",
+    "curl_cffi"
+]
+
 [tool.vercel]
 entrypoint = "api:app"
